@@ -1,0 +1,300 @@
+The FinalData dataset includes 81 variables: participant ID, activity, and means for each of 79 variables by activity and participant
+
+
+1. Participant: ID of the study participant
+	Range: 1 - 30
+	
+2. Activity: one of 6 activities participants performed  
+	Lying down
+	Sitting
+	Standing
+	Walking
+	Walking Downstairs
+	Walking Upstairs
+
+3. timeBodyAccelerometer - mean() - X
+	mean body linear acceleration captured with the accelerometer on axis X
+
+4. timeBodyAccelerometer - mean() - Y 
+	mean body linear acceleration captured with the accelerometer on axis Y
+
+5. timeBodyAccelerometer - mean() - Z 
+	mean body linear acceleration captured with the accelerometer on axis Z
+
+6. timeGravityAccelerometer - mean() - X 
+	mean linear gravity acceleration captured with the accelerometer on axis X
+
+7. timeGravityAccelerometer - mean() - Y
+	mean linear gravity acceleration captured with the accelerometer on axis Y
+
+8. timeGravityAccelerometer - mean() - Z
+	mean linear gravity acceleration captured with the accelerometer on axis Z
+
+9. timeBodyAccelerometerJerk - mean() - X
+	mean body jerk signals captured with the accelerometer on axis X
+
+10. timeBodyAccelerometerJerk - mean() - Y
+	mean body jerk signals captured with the accelerometer on axis Y
+
+11. timeBodyAccelerometerJerk - mean() - Z
+	mean body jerk signals captured with the accelerometer on axis Z
+
+12. timeBodyGyroscope - mean() - X
+	mean body gyroscope acceleration on axis X
+
+13. timeBodyGyroscope - mean() - Y
+	mean body gyroscope acceleration on axis Y
+
+14. timeBodyGyroscope - mean() - Z
+	mean body gyroscope acceleration on axis Z
+
+15. timeBodyGyroscopeJerk - mean() - X
+	mean body jerk signals captured with the gyroscope on axis X
+
+16. timeBodyGyroscopeJerk - mean() - Y
+	mean body jerk signals captured with the gyroscope on axis Y
+
+17. timeBodyGyroscopeJerk - mean() - Z
+	mean body jerk signals captured with the gyroscope on axis Z
+
+18. timeBodyAccelerometerMagnitude - mean()
+	mean body acceleration captured with the accelerometer
+
+19. timeGravityAccelerometerMagnitude - mean()
+	mean gravity acceleration captured with the accelerometer
+
+20. timeBodyAccelerometerJerkMagnitude - mean()
+	mean body jerk signals captured with the accelerometer
+
+21. timeBodyGyroscopeMagnitude - mean()
+	mean angular acceleration captured with the gyroscope
+
+22. timeBodyGyroscopeJerkMagnitude - mean()
+	mean body jerk signals captured with the gyroscope
+
+23. frequencyBodyAccelerometer - mean() - X
+	mean body movement captured with the acelerometer on axis X
+ 
+24. frequencyBodyAccelerometer - mean() - Y
+	mean body movement captured with the acelerometer on axis Y
+
+25. frequencyBodyAccelerometer - mean() - Z
+	mean body movement captured with the acelerometer on axis Z
+
+26. frequencyBodyAccelerometermeanFreq() - X
+	mean frequency of body movement captured with the acelerometer on axis X
+ 
+27. frequencyBodyAccelerometermeanFreq() - Y
+	mean frequency of body movement captured with the acelerometer on axis Y
+
+28. frequencyBodyAccelerometermeanFreq() - Z
+	mean frequency of body movement captured with the acelerometer on axis Z
+
+29. frequencyBodyAccelerometerJerk - mean() - X
+	mean jerk body movement captured with the acelerometer on axis X
+ 
+30. frequencyBodyAccelerometerJerk - mean() - Y
+	mean jerk body movement captured with the acelerometer on axis Y
+
+31. frequencyBodyAccelerometerJerk - mean() - Z
+	mean jerk body movement captured with the acelerometer on axis Z
+
+32. frequencyBodyAccelerometerJerk-meanFreq() - X
+	mean frequency of jerk body movement captured with the acelerometer on axis X
+ 
+33. frequencyBodyAccelerometerJerk-meanFreq() - Y
+	mean frequency of jerk body movement captured with the acelerometer on axis Y
+
+34. frequencyBodyAccelerometerJerk-meanFreq() - Z
+	mean frequency of jerk body movement captured with the acelerometer on axis Z
+
+35. frequencyBodyGyroscope - mean() - X
+	mean body angular movement captured with the gyroscope on axis X
+
+36. frequencyBodyGyroscope - mean() - Y
+	mean body angular movement captured with the gyroscope on axis Y
+
+37. frequencyBodyGyroscope - mean() - Z
+	mean body angular movement captured with the gyroscope on axis Z
+
+38. frequencyBodyGyroscope - meanFreq() - X
+	mean frequency of body angular movement captured with the gyroscope on axis X
+
+39. frequencyBodyGyroscope - meanFreq() - Y
+	mean frequency of body angular movement captured with the gyroscope on axis Y
+
+40. frequencyBodyGyroscope - meanFreq() - Z
+	mean frequency of body angular movement captured with the gyroscope on axis Z
+
+41. frequencyBodyAccelerometerMagnitude - mean()
+	mean magnitude of body acceleration captured with the accelerometer
+
+42. frequencyBodyAccelerometerMagnitude - meanFreq()
+	mean frequency of magnitude of body acceleration captured with the accelerometer
+
+43. frequencyBodyBodyAccelerometerJerkMagnitude - mean()
+	mean jerk body movement captured with the accelerometer
+
+44. frequencyBodyBodyAccelerometerJerkMagnitude - meanFreq()
+	mean frequency of jerk movement captured with the accelerometer
+
+45. frequencyBodyBodyGyroscopeMagnitude - mean()
+	mean magnitude of body angular acceleration captured with the gyroscope
+
+46. frequencyBodyBodyGyroscopeMagnitude - meanFreq()
+	mean frequency of magnitude of body angular acceleration captured with the gyroscope
+
+47. frequencyBodyBodyGyroscopeJerkMagnitude - mean()
+	mean magnitude of jerking body movement captured with the gyroscope	
+
+48. frequencyBodyBodyGyroscopeJerkMagnitude - meanFreq()
+	mean frequency of the magnitude of jerking body movement captured with the gyroscope	
+
+49. timeBodyAccelerometer - std() - X
+	mean standard deviation of body linear acceleration captured with the accelerometer on axis X
+
+50. timeBodyAccelerometer - std() - Y 
+	mean standard deviation of body linear acceleration captured with the accelerometer on axis Y
+
+51. timeBodyAccelerometer - std() - Z 
+	mean standard deviation of body linear acceleration captured with the accelerometer on axis Z
+
+52. timeGravityAccelerometer - std() - X 
+	mean standard deviation of linear gravity acceleration captured with the accelerometer on axis X
+
+53. timeGravityAccelerometer - std() - Y
+	mean standard deviation of linear gravity acceleration captured with the accelerometer on axis Y
+
+54. timeGravityAccelerometer - std() - Z
+	mean standard deviation of linear gravity acceleration captured with the accelerometer on axis Z
+
+55. timeBodyAccelerometerJerk - std() - X
+	mean standard deviation of body jerk signals captured with the accelerometer on axis X
+
+56. timeBodyAccelerometerJerk - std() - Y
+	mean standard deviation of body jerk signals captured with the accelerometer on axis Y
+
+57. timeBodyAccelerometerJerk - std() - Z
+	mean standard deviation of body jerk signals captured with the accelerometer on axis Z
+
+58. timeBodyGyroscope - std() - X
+	mean standard deviation of body gyroscope acceleration on axis X
+
+59. timeBodyGyroscope - std() - Y
+	mean standard deviation of body gyroscope acceleration on axis Y
+
+60. timeBodyGyroscope - std() - Z
+	mean standard deviation of body gyroscope acceleration on axis Z
+
+61. timeBodyGyroscopeJerk - std() - X
+	mean standard deviation of body jerk signals captured with the gyroscope on axis X
+
+62. timeBodyGyroscopeJerk - std() - Y
+	mean standard deviation of body jerk signals captured with the gyroscope on axis Y
+
+63. timeBodyGyroscopeJerk - std() - Z
+	mean standard deviation of body jerk signals captured with the gyroscope on axis Z
+
+64. timeBodyAccelerometerMagnitude - std()
+	mean standard deviation of body acceleration captured with the accelerometer
+
+65. timeGravityAccelerometerMagnitude - std()
+	mean standard deviation of gravity acceleration captured with the accelerometer
+
+66. timeBodyAccelerometerJerkMagnitude - std()
+	mean standard deviation of body jerk signals captured with the accelerometer
+
+67. timeBodyGyroscopeMagnitude - std()
+	mean standard deviation of angular acceleration captured with the gyroscope
+
+68. timeBodyGyroscopeJerkMagnitude - std()
+	mean standard deviation of body jerk signals captured with the gyroscope
+
+69. frequencyBodyAccelerometer - std() - X
+	mean standard deviation of body movement captured with the acelerometer on axis X
+ 
+70. frequencyBodyAccelerometer - std() - Y
+	mean standard deviation of body movement captured with the acelerometer on axis Y
+
+71. frequencyBodyAccelerometer - std() - Z
+	mean standard deviation of body movement captured with the acelerometer on axis Z
+
+72. frequencyBodyAccelerometerJerk - std() - X
+	mean standard deviation of jerking body movement captured with the acelerometer on axis X
+ 
+73. frequencyBodyAccelerometerJerk - std() - Y
+	mean standard deviation of jerking body movement captured with the acelerometer on axis Y
+ 
+74.frequencyBodyAccelerometerJerk - std() - Z
+	mean standard deviation of jerking body movement captured with the acelerometer on axis Z
+ 
+75. frequencyBodyGyroscope - std() - X
+	mean standard deviation of body angular movement captured with the gyroscope on axis X
+
+76. frequencyBodyGyroscope - std() - Y
+	mean standard deviation of body angular movement captured with the gyroscope on axis Y
+
+77. frequencyBodyGyroscope - std() - Z
+	mean standard deviation of body angular movement captured with the gyroscope on axis Z
+
+78. frequencyBodyAccelerometerMagnitude - std()
+	mean standard deviation of magnitude of body acceleration captured with the accelerometer
+
+79. frequencyBodyBodyAccelerometerJerkMagnitude - std()
+	mean standard deviation of jerk body movement captured with the accelerometer
+
+80. frequencyBodyBodyGyroscopeMagnitude - std()
+	mean standard deviation of the magnitude of body angular acceleration captured with the gyroscope
+
+81. frequencyBodyBodyGyroscopeJerkMagnitude - std()
+	mean standard deviation of the magnitude of jerking body movement captured with the gyroscope	
+
+
+
+
+
+
+Feature Selection 
+=================
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value
+std(): Standard deviation
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
+gravityMean
+tBodyAccMean
+tBodyAccJerkMean
+tBodyGyroMean
+tBodyGyroJerkMean
+
+The complete list of variables of each feature vector is available in 'features.txt'
